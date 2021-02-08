@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pozadina">
+
+        <RelativeLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:elevation="20dp">
+
+            <TextView
+                android:id="@+id/naziv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3E2723"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:background="#8D6E63"
+                android:textStyle="bold"
+                android:text="Naziv pasmine:"/>
+
+
+
+            <TextView
+                android:id="@+id/naziv"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/naziv1"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#3E2723"
+                />
+
+            <TextView
+                android:id="@+id/kategorija1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/naziv"
+                android:textColor="#3E2723"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:background="#8D6E63"
+                android:textStyle="bold"
+                android:text="Kategorija veličine:"/>
+
+
+            <TextView
+                android:id="@+id/kategorija"
+                android:layout_below="@id/kategorija1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#3E2723"
+                android:textSize="13sp"
+                />
+
+
+            <TextView
+                android:id="@+id/vijek1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kategorija"
+                android:textColor="#3E2723"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:background="#8D6E63"
+                android:textStyle="bold"
+                android:text="Životni vijek pasmine :"/>
+
+
+
+            <TextView
+                android:id="@+id/vijek"
+                android:layout_below="@id/vijek1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#3E2723"
+                android:textSize="13sp"
+                />
+
+            <TextView
+                android:id="@+id/drzava1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vijek"
+                android:textColor="#3E2723"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:background="#8D6E63"
+                android:textStyle="bold"
+                android:text="Država porijekla:"/>
+
+
+            <TextView
+                android:id="@+id/drzava"
+                android:layout_below="@id/drzava1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#3E2723"
+                android:textSize="13sp"
+                />
+
+            <TextView
+                android:id="@+id/anotacija1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/drzava"
+                android:textColor="#3E2723"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:background="#8D6E63"
+                android:textStyle="bold"
+                android:text="Sve anotacije:"/>
+
+
+
+            <TextView
+                android:id="@+id/anotacija"
+                android:layout_below="@id/anotacija1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textColor="#3E2723"
+                android:textSize="13sp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
